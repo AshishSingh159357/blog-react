@@ -1,0 +1,64 @@
+body {
+  font-family: cursive;
+  color: white;
+  font-stretch: extra-expanded;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* custom code */
+.button1{
+  background-color: rgb(82, 79, 79);
+  font-family: cursive;
+  padding: 10px 20px;
+  font-size: 27px;
+  color: white;
+}
+.div-button1{
+  background-image: url('https://source.unsplash.com/weekly?hacker');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  max-width: 100%;
+  min-height: 750px;
+  
+  justify-content: center;
+  align-items: center;
+}
+
+.section1{
+  display: flex;
+  background-color: rgb(82, 79, 79);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.div2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 27px;
+  max-width: 100%;
+  min-height: 300px;
+  background-image: url('https://source.unsplash.com/weekly?nature');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position:center;
+
+
+}
