@@ -1,0 +1,179 @@
+#section-2 {
+    width: 90%;
+    margin: auto;
+
+    margin-top: 5%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#my-skill {
+    /*min-height: 100vh;*/
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+
+}
+
+.progress-container {
+    margin: 10px;
+    width: 40%;
+
+
+}
+
+@keyframes loader {
+
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes loader1 {
+
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes loader2 {
+
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes loader3 {
+
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes loader4 {
+
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+
+
+.progress-bar {
+    border-radius: 60px;
+    /* overflow: hidden;*/
+    width: 100%;
+
+
+
+}
+
+.progress-bar span {
+    display: block;
+}
+
+
+
+.bar {
+    background: rgba(0, 0, 0, 0.075);
+}
+
+.progress {
+    animation: loader 2s ease-in-out;
+    background: blue;
+    color: #fff;
+    padding: 5px;
+    width: 70%;
+}
+
+
+.progress1 {
+    animation: loader1 2s ease-in-out;
+    background: blue;
+    color: #fff;
+    padding: 5px;
+    width: 80%;
+}
+
+
+.progress2 {
+    animation: loader2 2s ease-in-out;
+    background: blue;
+    color: #fff;
+    padding: 5px;
+    width: 90%;
+}
+
+
+.progress3 {
+    animation: loader3 2s ease-in-out;
+    background: blue;
+    color: #fff;
+    padding: 5px;
+    width: 80%;
+}
+
+.progress4 {
+    animation: loader4 2s ease-in-out;
+    background: blue;
+    color: #fff;
+    padding: 5px;
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#dont-know-skill{
+    margin-left: 1.5%;
+     width: 6%;
+     min-height: 0.3vh;
+     background-color: rgb(179, 179, 179);
+     border-radius: 10px;
+}
